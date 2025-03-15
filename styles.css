@@ -1,1 +1,67 @@
-/*  your css code here. If applicable */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #011e29;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 200px;
+
+}
+
+.latest-news-section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+    text-align: center;
+}
+.main-article-section{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 40%;
+    text-align: center; 
+}
+.pictorial-news-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 25%;
+    text-align: center;
+}
+
+.latest-news-section ul {
+    padding-left: 0;
+}
+
+.latest-news-section li {
+    margin: 10px 0;
+}
+
+.pictorial-news-section {
+    height: 700px;
+
+}
+
+.pictorial-news-section img {
+    width: 210px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+.main-article-section {
+    text-align: center;
+    height: 300px;
+}
